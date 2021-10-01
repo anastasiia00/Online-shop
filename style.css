@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.product {
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+.product_header {
+    width: 260px;
+    height: 260px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.up_header {
+    display: flex;
+}
+
+.labes_frame {
+    display:grid;
+   
+}
+
+.labes_frame1 {
+    position: absolute;
+    height: 17px;
+    left: 115px;
+    top: 124px;
+    background:#8D58E3;
+    border-radius: 3px;
+   padding: 4px 6px 3px;  
+}
+
+.labes_frame1_text {
+    padding: 3px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.labes_frame2 {
+    position: absolute;
+    height: 17px;
+    left: 115px;
+    top: 150px;
+    background: #E95471;
+    border-radius: 3px;
+    margin: 6px 0px;
+}
+
+.labes_frame2_text {
+    padding: 3px;
+    color: white;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.heart_button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 300px;
+    top: 120px;
+}
+
+.user_icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 325px;
+    top: 335px;
+}
+
+.product_name {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #202454;
+    padding: 16px 0 19px;
+    margin-top: 16px;
+}
+
+.stars {
+    display: flex;
+    justify-content: left;
+}
+
+.upper_price {
+    display: flex;
+    justify-content: left;
+}
+
+.product_price {
+    margin-left: 9px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #7B94B0;
+}
+
+.total_price {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+}
+
+.product_first-price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18,2px;
+    text-decoration-line: line-through;
+    color: #7B94B0;
+}
+
+.product_total-price {
+    margin-left: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #202454;
+    order: 1;
+}
+
+.button_for_buy {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 300px;
+    top: 390px;
+}
+
